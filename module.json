@@ -22,7 +22,8 @@
             "type": "system"
         }
     ],
-    "manifest": "",
+    "manifest": "https://raw.githubusercontent.com/ShingetsuStudios/hunters-mark/main/module.json",
+    "download": "https://github.com/ShingetsuStudios/hunters-mark/archive/refs/tags/v0.1.0.zip",
     "packs": [
         {
             "label": "Hunter's Mark Macros",

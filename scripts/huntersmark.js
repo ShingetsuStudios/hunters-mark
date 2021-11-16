@@ -1,4 +1,4 @@
-Hooks.once("midi-qol.preAttackRoll", (itemA, workflowA) => {
+Hooks.on("midi-qol.preAttackRoll", (itemA, workflowA) => {
     let target = workflowA.targets.values().next().value;
     let effect = target.actor.data.effects.filter(e => e.data.changes[0].key.includes("flags.hunters-mark.") && e.data.changes[0].value === itemA.parent.data.name)
     if (effect.length != 0) {

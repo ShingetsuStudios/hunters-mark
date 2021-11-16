@@ -7,7 +7,7 @@
             "name": "Shin"
         }
     ],
-    "version": "0.1.0",
+    "version": "0.1.1",
     "minimumCoreVersion": "0.8.8",
     "scripts": [
         "scripts/huntersmark.js"
@@ -24,6 +24,7 @@
     ],
     "manifest": "https://raw.githubusercontent.com/ShingetsuStudios/hunters-mark/main/module.json",
     "download": "https://github.com/ShingetsuStudios/hunters-mark/releases/latest/download/hunters-mark.zip",
+    "url": "https://github.com/ShingetsuStudios/hunters-mark",
     "packs": [
         {
             "label": "Hunter's Mark Macros",

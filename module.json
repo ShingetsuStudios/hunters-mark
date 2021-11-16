@@ -1,0 +1,35 @@
+{
+    "name": "hunters-mark",
+    "title": "Hunter's Mark Macros",
+    "description": "A set of macros and background code that allows one to use spells like hunter's mark and hex automatically. Requires Midi-QOL and the use of targeting in combat.",
+    "authors": [
+        {
+            "name": "Shin"
+        }
+    ],
+    "version": "0.1.0",
+    "minimumCoreVersion": "0.8.8",
+    "scripts": [
+        "scripts/huntersmark.js"
+    ],
+    "dependencies": [
+        {
+            "name": "midi-qol",
+            "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json"
+        },
+        {
+            "name": "dnd5e",
+            "type": "system"
+        }
+    ],
+    "manifest": "",
+    "packs": [
+        {
+            "label": "Hunter's Mark Macros",
+            "entity": "Macro",
+            "name": "marks",
+            "path": "packs/marks.db",
+            "system": "dnd5e"
+        }
+    ]
+}
